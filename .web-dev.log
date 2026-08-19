@@ -1,0 +1,23 @@
+
+> kamal-pandey-portfolio@1.0.0 dev
+> next dev --hostname 127.0.0.1 --port 3000
+
+   ▲ Next.js 15.5.22
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 5.8s
+ ○ Compiling / ...
+ ✓ Compiled / in 11.5s (2131 modules)
+ GET / 200 in 13349ms
+ GET / 200 in 366ms
+ GET / 200 in 399ms
+ GET / 200 in 553ms
+ GET / 200 in 540ms
+ GET / 200 in 556ms
+ GET / 200 in 504ms
+ GET / 200 in 540ms
+ GET / 200 in 566ms
+ GET / 200 in 553ms
