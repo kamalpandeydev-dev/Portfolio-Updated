@@ -28,7 +28,7 @@ export const profile = {
   phone: "+91 92663 06689",
   location: "Delhi, India",
   linkedin: "https://www.linkedin.com/in/kamalpandey26/",
-  resumePath: "/assets/kamal-pandey-resume.docx",
+  resumePath: "/assets/Kamal_Pandey_Resume.docx",
   photoPath: "/assets/KPlogo1.jpg",
   logoPath: "/assets/kplogo3.jpg"
 };
