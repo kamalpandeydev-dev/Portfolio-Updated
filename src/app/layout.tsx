@@ -8,13 +8,15 @@ import "@fontsource/plus-jakarta-sans/800.css";
 import "./globals.scss";
 import { ThemeRegistry } from "@/lib/theme/theme-registry";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://kamal-pandey-portfolio.vercel.app";
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  "https://kamal-pandey-portfolio.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default: "Kamal Pandey | Senior Scrum Master & Lead UI/UX Designer",
-    template: "%s | Kamal Pandey"
+    template: "%s | Kamal Pandey",
   },
   description:
     "Portfolio for Kamal Pandey, Senior Scrum Master and Lead UI/UX Designer specializing in Agile delivery, Scrum, Kanban, UX research, design systems, Figma, WCAG accessibility, React, SCSS, and stakeholder management.",
@@ -39,13 +41,13 @@ export const metadata: Metadata = {
     "React.js",
     "SCSS",
     "Core Web Vitals",
-    "CI/CD"
+    "CI/CD",
   ],
   authors: [{ name: "Kamal Pandey" }],
   creator: "Kamal Pandey",
   publisher: "Kamal Pandey",
   alternates: {
-    canonical: "/"
+    canonical: "/",
   },
   openGraph: {
     title: "Kamal Pandey | Senior Scrum Master & Lead UI/UX Designer",
@@ -58,30 +60,44 @@ export const metadata: Metadata = {
         url: "/assets/kplogo3.jpg",
         width: 1200,
         height: 630,
-        alt: "Kamal Pandey portfolio"
-      }
+        alt: "Kamal Pandey portfolio",
+      },
     ],
     locale: "en_US",
-    type: "profile"
+    type: "profile",
   },
   twitter: {
     card: "summary_large_image",
     title: "Kamal Pandey | Senior Scrum Master & Lead UI/UX Designer",
     description:
       "Scrum Master, Lead UI/UX Designer, Web Accessibility Specialist, and frontend collaborator.",
-    images: ["/assets/kplogo3.jpg"]
+    images: ["/assets/kplogo3.jpg"],
   },
   icons: {
     icon: [
-      { url: "/assets/favicon/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/assets/favicon/favicon-16x16.png", sizes: "16x16", type: "image/png" }
+      {
+        url: "/assets/favicon/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "/assets/favicon/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
     ],
-    apple: [{ url: "/assets/favicon/apple-icon-180x180.png", sizes: "180x180", type: "image/png" }]
+    apple: [
+      {
+        url: "/assets/favicon/apple-icon-180x180.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
   },
   robots: {
     index: true,
-    follow: true
-  }
+    follow: true,
+  },
 };
 
 interface RootLayoutProps {

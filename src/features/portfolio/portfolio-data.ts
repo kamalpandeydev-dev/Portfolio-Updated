@@ -263,9 +263,9 @@ export const projects = [
   },
   {
     title: "Dabur Digital Ecosystem",
-    client: "Dabur India Ltd via Accenture",
+    client: "Dabur India Ltd",
     period: "2013 - 2018",
-    image: "/assets/realfruitpower.jpg",
+    image: "/assets/dabur.jpg",
     icon: AutoGraphRoundedIcon,
     type: "Consumer brand UX and performance optimization",
     summary:
@@ -278,7 +278,7 @@ export const projects = [
     title: "React Component Library & UX Research",
     client: "Syncrasy Technologies",
     period: "2019 - 2021",
-    image: "/assets/project-3.png",
+    image: "/assets/continental.jpg",
     icon: SchemaRoundedIcon,
     type: "Accessible component system and performance program",
     summary:
